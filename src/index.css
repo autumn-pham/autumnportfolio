@@ -11,3 +11,146 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+h1, h3, h4 {
+  font-family: "Satisfy", cursive;
+}
+
+.sidebar {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.autumn-img {
+  width: 150px;
+  height: 200px;
+}
+
+.fab, .fas {
+  color: black;
+}
+
+.social-icons {
+  list-style-type: none;
+}
+
+.main {
+  border-left: 1px solid black;
+}
+
+.banner {
+  background-image: url("https://i.makeagif.com/media/10-06-2016/yjj7CR.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 70%;
+  color: white;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: .5em 0;
+}
+
+.links .fas, .links .fab {
+  color: white;
+}
+
+.links1, .links2, .links3, .links4, .links5 {
+  width: 19%;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 49%;
+  margin-bottom: 1em;
+}
+
+.date {
+  float: right;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: .5em;
+}
+
+.experience-icon {
+  width: 5%;
+}
+
+.experience-text {
+  width: 94%;
+}
+
+@media (min-width: 577px) {
+  .mobile-display: {
+    display: none;
+  }
+  .autumn-mobile-img {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .banner h1 {
+    font-size: .75em;
+  }
+
+  .autumn-img img {
+    width: 25px;
+    height: 40px;
+  }
+
+ .desktop-display, .experience {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .autumn-mobile-img {
+    width: 20%;
+  }
+  .about-text {
+    width: 69%;
+  }
+  .project {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .card {
+    width: 100%;
+    display: inline-block;
+    margin: 0 .5em 0 .5em;
+  }
+
+  a, .skills {
+    font-size: .75em;
+  }
+}
