@@ -31,6 +31,10 @@ h1, h3, h4 {
   height: 200px;
 }
 
+.page-links, .social-icons, .skills {
+  margin: 2em 0;
+}
+
 .fab, .fas {
   color: black;
 }
