@@ -79,6 +79,11 @@ h1, h3, h4 {
   margin-bottom: 1em;
 }
 
+.title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .date {
   float: right;
 }
