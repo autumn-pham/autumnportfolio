@@ -12,7 +12,7 @@ class Project extends React.Component {
           <div className="card-header text-center">Fighting Fit</div>
           <img src={FightingFit} className="card-img-top" alt="fighting fit site"/>
           <div className="card-body">
-            <a href="https://fightingfit.herokuapp.com" className="btn btn-outline-dark btn-block" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+            <a href="https://fightingfit.herokuapp.com" className="btn btn-outline-dark btn-block" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a>
           </div>
         </div>
         <div className="card">
