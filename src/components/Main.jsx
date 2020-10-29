@@ -9,7 +9,7 @@ class Main extends React.Component {
         <hr/><h3 id="about">about autumn</h3><hr/>
         <div className="about">
           <img src={Autumn} alt="autumn headshot" className="autumn-mobile-img mobile-display"/>
-          <p className="about-text">As a full-stack software engineer, I create beautiful, functional, and responsive web applications. An avid learner, I tackle problems through a multicultural, multidisciplinary perspective to find the best solutions for each unique project. Through creative problem solving, grit, and keen attention to detail, I strive to make each web app a masterpiece.</p>
+          <p className="about-text">As a full-stack software engineer, I create beautiful, functional, and responsive web applications. An avid learner, I tackle problems through a multicultural, multidisciplinary perspective to find the best solutions for each unique project. Through creative problem-solving, grit, and keen attention to detail, I strive to make every web app a masterpiece, each better than the last.</p>
         </div>
         <hr/><h3 id="projects">projects</h3><hr/>
         <Project/>
