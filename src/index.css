@@ -125,9 +125,9 @@ h1, h3, h4 {
     font-size: .75em;
   }
 
-  .autumn-img img {
-    width: 25px;
-    height: 40px;
+  .autumn-mobile-img {
+    max-width: 125px;
+    max-height: 150px;
   }
 
  .desktop-display, .experience {
