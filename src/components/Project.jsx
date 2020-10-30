@@ -19,7 +19,7 @@ class Project extends React.Component {
           <div className="card-header text-center">Fighting Fit Meetup</div>
           <img src={FightingFitMeetup} className="card-img-top" alt="fighting fit meetup site"/>
           <div className="card-body">
-            <a href="https://fightfitmeetup.herokuapp.com" className="btn btn-outline-dark btn-block" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a>
+            <a href="https://fightingfitmeetup.herokuapp.com" className="btn btn-outline-dark btn-block" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a>
           </div>
         </div>
         <div className="card">

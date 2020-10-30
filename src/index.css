@@ -51,8 +51,9 @@ h1, h3, h4 {
   background-image: url("assets/fallingleaves.gif");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .7;
+  opacity: .65;
   color: white;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -90,6 +91,7 @@ h1, h3, h4 {
 
 .date {
   float: right;
+  font-style: italic;
 }
 
 .experience {
@@ -125,13 +127,17 @@ h1, h3, h4 {
     font-size: .75em;
   }
 
-  .autumn-mobile-img {
+  /* .autumn-mobile-img {
     max-width: 125px;
     max-height: 150px;
-  }
+  } */
 
  .desktop-display, .experience {
     display: none;
+  }
+
+  .fa-2x {
+    font-size: 1.5em;
   }
 
   .about {
@@ -159,7 +165,7 @@ h1, h3, h4 {
     margin: 0 .5em 0 .5em;
   }
 
-  a, .skills {
+  a, .skills, .about-text {
     font-size: .75em;
   }
 }
