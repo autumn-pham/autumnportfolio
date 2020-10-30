@@ -1,4 +1,5 @@
 import React from "react";
+import Responsive from "../assets/responsive.png";
 import FightingFit from "../assets/fightingfit.png";
 import FightingFitMeetup from "../assets/fightingfitmeetup.png";
 import PinchofSalt from "../assets/pinchofsalt.png";
@@ -7,6 +8,8 @@ import NovelIdea from "../assets/anovelidea.png";
 class Project extends React.Component {
   render() {
     return (
+      <div>
+        <div className="responsive-banner"><img src={Responsive} alt="responsive sites" className="img-fluid"/></div><br/>
       <div className="project">
         <div className="card">
           <div className="card-header text-center">Fighting Fit</div>
@@ -37,6 +40,7 @@ class Project extends React.Component {
           </div>
         </div>
       </div>
+    </div>
     );
   }
 }
