@@ -16,7 +16,7 @@ class Sidebar extends React.Component {
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/autumn-pham" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-2x"></i></a><br/>
             <a href="https://github.com/autumn-pham" target="_blank" rel="noreferrer"><i className="fab fa-github-square fa-2x"></i></a><br/>
-            <a href="https://github.com/autumn-pham" target="_blank" rel="noreferrer"><i className="fas fa-file-alt fa-2x"></i></a><br/>
+            <a href="https://drive.google.com/file/d/1Z96H84gf3LnSVJ_u3NGJR7h1FKdcNFnz/view?usp=sharing" target="_blank" rel="noreferrer"><i className="fas fa-file-alt fa-2x"></i></a><br/>
           </div><hr/>
           <div className="skills">
             <h6>Skills</h6>
